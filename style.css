@@ -17,19 +17,23 @@ body {
     height: 80vh;
 }
 
-img {
+
+.img-container-after,
+.img-container-before {
+    position: absolute;
     width: 30vw;
     height: 80vh;
-    object-fit: cover;
-}
-
-.img-container-after, .img-container-after {
-    position: absolute;
 }
 
 .img-container-before {
     width: 15vw;
     overflow: hidden;
+}
+
+img {
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
 }
 
 .slider {
